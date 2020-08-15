@@ -1,0 +1,87 @@
+.timeline-title {
+  background: rgba(139, 170, 243, 0.22);
+  margin: 0;
+  text-align: center;
+}
+
+.timeline-title h2 {
+  padding-top: 45px;
+  margin-bottom: 0;
+}
+
+#timeline {
+  background: rgba(139, 170, 243, 0.22);
+  height: 500px; 
+  position: relative; 
+  padding: 57px 0;
+  margin: 0 auto 40px auto;
+  box-sizing: border-box;
+}
+
+#timeline ul {
+  margin: 0;
+  padding: 0;
+}
+
+.p-timeline {
+  font-weight: bolder;
+}
+
+#timeline:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 3px;
+  height: 325px;
+  background: #3377FF;
+  top: 90px;
+}
+
+#timeline ul li {
+  line-height: normal;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+
+#timeline ul li {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.content {
+  padding-bottom: 20px;
+}
+
+#timeline ul li p {
+  padding-top: 2px;
+  margin: 0;
+}
+
+#timeline ul li .p-timeline {
+  padding-top: 10px;
+  margin: 0;
+}
+
+
+#timeline ul li:before {
+  content: '';
+  top: 22px;
+  left: -9.5px;
+  position: absolute;
+  width: 20px;
+  height: 20px; 
+  background: #E6ECFC;
+  border-radius: 50%;
+  border: 2px solid #3377FF;
+}
+
+#timeline ul li .step {
+  position: absolute;
+  top: 12px;
+  left: -125px;
+}
