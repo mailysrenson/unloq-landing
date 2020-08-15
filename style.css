@@ -35,5 +35,6 @@ body p {
 
 #project-form {
   background: rgba(139, 170, 243, 0.22);
+  border-radius: 10px;
 }
 

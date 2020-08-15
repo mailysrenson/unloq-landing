@@ -132,100 +132,100 @@
 
     <div class="container my-4" id="project-form">
       <h2 class="pt-4">Votre projet</h2>
-      <form>
+      <form id="test-form">
         <div class="form-group">
-          <label for="full-name">Nom et prénom</label>
-          <input type="text" class="form-control" id="full-name" placeholder="Elisa Millet">
+          <label>Nom et prénom</label>
+          <input type="text" name="name" class="form-control" placeholder="Elisa Millet">
         </div>
 
         <div class="form-group">
-          <label for="exampleFormControlInput1">Adresse e-mail</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label>Adresse e-mail</label>
+          <input type="email" name="e-mail" class="form-control" placeholder="name@example.com">
         </div>
 
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-          <label class="form-check-label" for="inlineRadio1">J'ai un site web et j'aimerais adapter certaines choses</label>
+          <input class="form-check-input" type="radio" name="existing-site" value="yes">
+          <label class="form-check-label" for="existing-site">J'ai un site web et j'aimerais adapter certaines choses</label>
         </div>
         <div class="form-check form-check-inline">
-          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <input class="form-check-input" type="radio" name="existing-site" value="no">
           <label class="form-check-label" for="inlineRadio2">Je veux un nouveau site web</label>
         </div>
 
         <div class="form-group mt-3">
-          <label for="exampleFormControlTextarea1">Description de votre projet</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <label for="description">Description de votre projet</label>
+          <textarea class="form-control" name="description" rows="5"></textarea>
         </div>
 
         <p class="py-3"><strong>Je veux une ...</strong> (plusieurs choix possibles)</p>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="home-page">
           <label class="form-check-label" for="defaultCheck1">
             Page d'accueil
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="about-us">
           <label class="form-check-label" for="defaultCheck1">
             Page "qui sommes-nous"
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="product-page">
+          <label class="form-check-label" for="defaultCheck1" >
             Page produit
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="contact-pages">
           <label class="form-check-label" for="defaultCheck1">
             Page de contact
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-          <label class="form-check-label" for="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="other-pages">
+          <label class="form-check-label" for="defaultCheck1" >
             Autre(s):
           </label>
-          <input type="text">
+          <input type="text" name="other-pages">
         </div>
 
         <p class="my-3"><strong>J'ai besoin de/que ...</strong> (plusieurs choix possibles)</p>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="login">
           <label class="form-check-label" for="defaultCheck1">
             Mes utilisateurs puissent se connecter
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="booking">
           <label class="form-check-label" for="defaultCheck1">
             d'un système de réservation
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="shopping">
           <label class="form-check-label" for="defaultCheck1">
             d'un système d'achat en ligne
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="paying">
           <label class="form-check-label" for="defaultCheck1">
             d'un système de paiement en ligne
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <input class="form-check-input" type="checkbox" name="other-features">
           <label class="form-check-label" for="defaultCheck1">
             Autre(s):
           </label>
-          <input type="text">
+          <input type="text" name="other-features">
         </div>
 
-        <button type="submit" class="btn button my-5">Envoyer mon projet</button>
+        <button type="submit" id="submit-form" class="btn button my-5">Envoyer mon projet</button>
       </form>
     </div>
-
+  <script src="script.js" rel="javascript" type="text/javascript"></script>
 </body>
 </html>
