@@ -18,9 +18,9 @@
       </div>
       <div class="menu">
         <ul class="list-inline">
-          <li class="list-inline-item px-4 pt-2">Le concept</li>
-          <li class="list-inline-item px-4 pt-2">Comment ça marche?</li>
-          <li class="list-inline-item px-4 pt-2">Tarifs</li>
+          <li class="list-inline-item px-4 pt-2"><a href="#concept">Le concept</a></li>
+          <li class="list-inline-item px-4 pt-2"><a href="#howitworks">Comment ça marche?</a></li>
+          <li class="list-inline-item px-4 pt-2"><a href="#tarifs">Tarifs</a></li>
         </ul>
       </div>
       <div>
@@ -29,20 +29,20 @@
       </div>
     </nav>        
 
-    <div class="container" id="landing">
+    <div class="container pt-4" id="landing">
       <div class="row align-items-center">
-        <div class="text-card col-6">
+        <div class="text-card col-5">
           <h2 class="py-2">Votre projet va enfin voir le jour</h2>
           <p class="py-2 mb-5">Unloq vous aide à réaliser votre rêve et enfin vous lancer. Grâce à nos <strong>prix imbatables</strong>, vous pouvez enfin tester votre projet sans investissement.</p>
           <a href="#" class="button text-center">Demander une offre</a>
         </div>
-        <div class="landing-image col-6">
+        <div class="landing-image col-7">
           <img src="css/images/undraw_pair_programming_njlp.png" alt="">
         </div>        
       </div>
     </div>
 
-    <div class="container" id="concept">
+    <div class="container pt-5" id="concept">
       <div class="row align-items-center">
         <div class="concept-image col-6">
           <img src="css/images/undraw_online_connection_6778 (1).svg" alt="">
@@ -59,7 +59,7 @@
       </div>
     </div>
 
-    <div class="timeline-title">
+    <div class="timeline-title" id="howitworks">
       <h2>Comment ça marche?</h2>
     </div>
     <div id="timeline">
@@ -127,6 +127,104 @@
             Le paiement se fait à la signature du contrat. La somme sera versée au Networqer lorsque vous recevez le projet fini. </p>
         </div>     
       </div>
+    </div>
+
+
+    <div class="container my-4" id="project-form">
+      <h2>Votre projet</h2>
+      <form>
+        <div class="form-group">
+          <label for="full-name">Nom et prénom</label>
+          <input type="text" class="form-control" id="full-name" placeholder="Elisa Millet">
+        </div>
+
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Adresse e-mail</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+          <label class="form-check-label" for="inlineRadio1">J'ai un site web et j'aimerais adapter certaines choses</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+          <label class="form-check-label" for="inlineRadio2">Je veux un nouveau site web</label>
+        </div>
+
+        <div class="form-group mt-3">
+          <label for="exampleFormControlTextarea1">Description de votre projet</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <p class="py-3"><strong>Je veux une ...</strong> (plusieurs choix possibles)</p>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Page d'accueil
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Page "qui sommes-nous"
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Page produit
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Page de contact
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Autre(s):
+          </label>
+          <input type="text">
+        </div>
+
+        <p class="my-3"><strong>J'ai besoin de/que ...</strong> (plusieurs choix possibles)</p>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Mes utilisateurs puissent se connecter
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            d'un système de réservation
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            d'un système d'achat en ligne
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            d'un système de paiement en ligne
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Autre(s):
+          </label>
+          <input type="text">
+        </div>
+
+        <button type="submit" class="btn button my-5">Envoyer mon projet</button>
+      </form>
     </div>
 
 </body>

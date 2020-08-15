@@ -1,5 +1,12 @@
 nav a {
-  color: red;
+  text-decoration: none;
+  color: rgb(71, 70, 70); 
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: rgb(71, 70, 70); 
 }
 
 nav {
