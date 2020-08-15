@@ -33,4 +33,7 @@ body p {
   height: 500px; 
 }
 
+#project-form {
+  background: rgba(139, 170, 243, 0.22);
+}
 
